@@ -1,3 +1,5 @@
+![Hero Section]([images/screenshot-hero.png](https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20landing%20page.png?raw=true))
+https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20landing%20page.png
 # ⚖️ Justice – Professional Law Firm Landing Page  
 A modern, elegant, and fully responsive **landing page** designed for law firms, created using **HTML**, **CSS**, **Tailwind CSS**, and **DaisyUI**.  
 This project focuses on clean structure, smooth layout, and professional UI—built completely without JavaScript.
