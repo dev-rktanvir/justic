@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="src/style.css">
 </head>
 
-<body class="poppins-font container mx-auto">
+<body class="poppins-font">
   <!-- Header section -->
-  <header>
+  <header class="container mx-auto">
     <!-- Navbar -->
     <nav>
       <div class="navbar justify-between py-10">
@@ -377,7 +377,8 @@
           <!-- cards -->
           <div class="grid gap-5 lg:gap-0 grid-cols-1 md:grid-cols-2">
             <!-- card 1 -->
-            <div class="p-16 text-center border lg:border-b lg:border-r lg:border-t-0 lg:border-l-0 border-secondary/10 bg-base-200">
+            <div
+              class="p-16 text-center border lg:border-b lg:border-r lg:border-t-0 lg:border-l-0 border-secondary/10 bg-base-200">
               <img class="mx-auto" src="images/location.png" alt="">
               <h4 class="font-extrabold text-2xl text-secondary my-4">Address</h4>
               <ul class="text-base text-accent">
@@ -386,7 +387,8 @@
               </ul>
             </div>
             <!-- card 2 -->
-            <div class="p-16 text-center border lg:border-t-0 lg:border-x-0 lg:border-b border-secondary/10 bg-base-200">
+            <div
+              class="p-16 text-center border lg:border-t-0 lg:border-x-0 lg:border-b border-secondary/10 bg-base-200">
               <img class="mx-auto" src="images/call.png" alt="">
               <h4 class="font-extrabold text-2xl text-secondary my-4">Call Us</h4>
               <ul class="text-base text-accent">
@@ -395,7 +397,8 @@
               </ul>
             </div>
             <!-- card 3 -->
-            <div class="p-16 text-center border lg:border-y-0 lg:border-l-0 lg:border-r border-secondary/10 bg-base-200">
+            <div
+              class="p-16 text-center border lg:border-y-0 lg:border-l-0 lg:border-r border-secondary/10 bg-base-200">
               <img class="mx-auto" src="images/email.png" alt="">
               <h4 class="font-extrabold text-2xl text-secondary my-4">Email Us</h4>
               <ul class="text-base text-accent">
@@ -417,11 +420,17 @@
         <!-- right -->
         <div class="flex-1">
           <form>
-            <input class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" type="text" placeholder="Your Name">
-            <input class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" type="email" placeholder="Your Email">
-            <input class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" type="text" placeholder="Subject">
-            <textarea class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
-            <button type="submit" class="font-semibold text-xl text-white bg-primary rounded-lg py-5 w-full cursor-pointer">Send Message</button>
+            <input class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" type="text"
+              placeholder="Your Name">
+            <input class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" type="email"
+              placeholder="Your Email">
+            <input class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" type="text"
+              placeholder="Subject">
+            <textarea class="rounded-lg text-base text-secondary bg-base-200 p-6 w-full mb-8" name="" id="" cols="30"
+              rows="5" placeholder="Your Message"></textarea>
+            <button type="submit"
+              class="font-semibold text-xl text-white bg-primary rounded-lg py-5 w-full cursor-pointer">Send
+              Message</button>
           </form>
         </div>
       </div>
@@ -429,8 +438,54 @@
   </main>
 
   <!-- Footer section -->
-  <footer>
-
+  <footer class="bg-black py-10 lg:py-20">
+    <div class=" container text-center lg:text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto text-white p-10">
+      <nav>
+        <img class="mx-auto lg:mx-0" src="images/logo.png" alt="">
+        <p class="lg:w-3/4 mx-auto lg:mx-0 mt-8 text-base">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour.
+        </p>
+      </nav>
+      <nav>
+        <h6 class="font-extrabold text-2xl text-white">Usefull Link</h6>
+        <ul class="text-base mt-8 space-y-3">
+          <li><a class="link link-hover">Homes</a></li>
+          <li><a class="link link-hover">About Us</a></li>
+          <li><a class="link link-hover">Cases</a></li>
+          <li> <a class="link link-hover">Blog</a></li>
+          <li><a class="link link-hover">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <h6 class="font-extrabold text-2xl text-white">Contact Now</h6>
+        <ul class="mt-8 text-base">
+          <li>555 4th 5t NW, Washington</li>
+          <li>DC 20530, United States</li>
+        </ul>
+        <ul class="text-base my-4">
+          <li>+88 01750 000 000</li>
+          <li>+88 01750 000 000</li>
+        </ul>
+        <ul class="text-base">
+          <li>info@gmail.com</li>
+          <li>info@gmail.com</li>
+        </ul>
+        
+      </nav>
+      <form>
+        <h6 class="font-extrabold text-2xl text-white">Subscribe</h6>
+        <p class="mt-8 mb-6 text-base">
+          Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+        </p>
+        <fieldset class="w-80">
+          <div class="join">
+            <input type="text" placeholder="Email Address" class="input input-bordered join-item text-base text-secondary" />
+            <button class="btn btn-primary join-item"><i class="fa-solid fa-location-arrow"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </footer>
 </body>
 
