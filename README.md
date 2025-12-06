@@ -1,5 +1,5 @@
-![Hero Section]([images/screenshot-hero.png](https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20landing%20page.png?raw=true))
-https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20landing%20page.png
+![Hero Section](https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20landing%20page.png)
+
 # ⚖️ Justice – Professional Law Firm Landing Page  
 A modern, elegant, and fully responsive **landing page** designed for law firms, created using **HTML**, **CSS**, **Tailwind CSS**, and **DaisyUI**.  
 This project focuses on clean structure, smooth layout, and professional UI—built completely without JavaScript.
@@ -81,6 +81,19 @@ You can easily modify:
 Tailwind classes make customization fast and flexible.
 
 ---
+
+## 📸 Screenshots
+**Click on Image to see bigger version**
+
+| Hero | Practice Area | Testimonials |
+| ---- | ------------- | ------------ |
+| <img src="https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20hero.png" width="250"/> | <img src="https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20practice.png" width="250"/> | <img src="https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20testimonials.png" width="250"/> |
+
+| FAQ | Contact | Footer |
+| --- | ------- | ------ |
+| <img src="https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20faq.png" width="250"/> | <img src="https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20contact.png" width="250"/> | <img src="https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20footer.png" width="250"/> |
+
+
 
 ## 📄 License
 This project is free to use for personal, learning, or portfolio purposes.
