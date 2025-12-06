@@ -6,15 +6,50 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>justic</title>
+  <script src="https://kit.fontawesome.com/cfc99e223c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="src/style.css">
 </head>
 
-<body class="poppins-font">
+<body class="poppins-font container mx-auto">
   <!-- Header section -->
   <header>
-    <h2 class="text-5xl text-primary ">i love</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos hic vel in et minus possimus quos facilis voluptas
-      repellat mollitia?</p>
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar justify-between py-10">
+        <div class="flex gap-2 lg:gap-5 justify-center items-center">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a href="#">Home <i class="fa-solid fa-angle-right"></i></a></li>
+              <li><a href="#">Services <i class="fa-solid fa-angle-right"></i></a></li>
+              <li><a href="#">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+              <li><a href="#">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+              <li><a href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+            </ul>
+          </div>
+          <a href="#"><img src="images/logo2.png" alt=""></a>
+        </div>
+        <div class=" hidden lg:flex">
+          <ul class="flex gap-8 px-1 text-secondary text-base">
+            <li><a href="#">Home <i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a href="#">Services <i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a href="#">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a href="#">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+          </ul>
+        </div>
+        <div class="">
+          <a href="" class="hidden md:block rounded-lg font-semibold text-lg text-white bg-primary px-7 py-4">Free
+            Consultation</a>
+          <a href="" class="md:hidden rounded-lg font-semibold text-lg text-white bg-primary px-7 py-4">Consultation</a>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <!-- Main Section -->
